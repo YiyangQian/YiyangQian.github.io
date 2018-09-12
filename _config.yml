@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://github.com/YiyangQian/resume-and-cover-letter/blob/master/resume/main.pdf
 
-url: https://YiyangQian.github.io/blog
+url: https://YiyangQian.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
