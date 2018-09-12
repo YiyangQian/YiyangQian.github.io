@@ -13,3 +13,4 @@ layout: page
 
 <p>What make me proud of my internship is bringing value by following these good practices. I have worked on a React web app and had a side inner sourse project came with it. The inner source project is for sharing all the best practices that could help other React develpors inside Autodesk. Even after I finished my internship, I still got updated about people getting what they are looking for from the inner source project. I do enjoy the happiness of helping other, and for greater goods, we are trying to make this project open source. </p>
 
+🤪
