@@ -84,3 +84,5 @@ description: Markdown summary with different options
 * Shout out to my manager Alica, guiding my professional life and helping me preparing my presentation. 
 * Shout out to Sean, manager of Autodesk HIG Team, worked closely on my project with me and helped me. 
 * Shout out to all my intern buddies, it was great fun hanging out with you guys. 
+* Shout out to Sisi, my sister, cooking amazing cuisines for us and hanging out with me. 
+* Shout out to Snow and Doudou, making my life at SF busy, need to feed them and play with them lol. 
