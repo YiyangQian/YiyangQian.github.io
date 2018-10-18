@@ -25,6 +25,7 @@ description: Markdown summary with different options
 1. A full stack project 
     * Tech Stack: React, AWS, Autodesk Forge
     * Purpose: Internal tool for Agile related metrics, accessible to all agile coaches and leadership
+    * Outcome: This app serves all leadership and aigle coaches, offering metics of more than 70+ teams.
     * Basic Functions: 
         * Able to auto fetch data, analyz and then push to front end weekly. 
         * User authentication using Autodesk Forge service.
@@ -35,6 +36,7 @@ description: Markdown summary with different options
 2. An inner source project
     * Tech Stack: React
     * Purpose: For sharing my experience of utilizing Autodesk HIG React Components and other best practices.
+    * Outcome: Still got updated about stories about how this project helped other developers after I left.
     * Bacis Functions: 
         * Examples of Autodesk HIG React Components as a complement to storybook. 
             * Charts.
@@ -47,6 +49,7 @@ description: Markdown summary with different options
 3. An Artifactory monitoring system 
     * Tech Stack: Python, Groovy (Jenkins), Docker
     * Purpose: For monitoring the connection of Artifactory and Jenkins.
+    * Outcome: Became part of one the real product. 
     * Basic Functions: 
         * Tests for logging Artifactory from Jenkins.
         * Tests for pulling generic Artifacts from Artifactory from Jenkins, acheived by testing in Python environment created from a Docker image on Jenkins.
