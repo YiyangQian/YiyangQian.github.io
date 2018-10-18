@@ -2,7 +2,7 @@
 title: "My Story at Autodesk"
 layout: post
 date: 2018-10-17 22:23
-# image: /assets/images/adsk.JPG
+image: /assets/images/adsk.JPG
 headerImage: false
 tag:
 - markdown
@@ -13,11 +13,9 @@ author: YY
 description: Markdown summary with different options
 ---
 
-![Credit to my mentor Mitchell Mikusek][https://YiyangQian.github.io/blog/assets/images/adsk.jpg]
+![Credit to my mentor Mitchell Mikusek](https://YiyangQian.github.io/blog/assets/images/adsk.JPG){: class="bigger-image" }
 
 <div class="side-by-side">
-    
-
     <div class="toleft">
         <!-- <p>It is the amazing start of my career.</p> -->
         <p> I will always remember the days I had at Autodesk.</p>
@@ -27,7 +25,7 @@ description: Markdown summary with different options
         <p>I will never forget all those rehearsals and practices for my intern presentation.</p>
     </div>
     <div class="toright">
-        <img class="image" src="/assets/images/adsk.jpg" alt="Alt Text">
+        <img class="image" src="https://YiyangQian.github.io/blog/assets/images/adsk.JPG" alt="Alt Text">
         <figcaption class="caption">Credit to my mentor Mitchell Mikusek </figcaption>
     </div>
 </div>
