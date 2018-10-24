@@ -72,7 +72,7 @@ description: Markdown summary with different options
         * Peer Programming and white board designs.
 
 2. Professional
-    * Work with multiple teams. 
+    * Work with multiple teams
         * Worked as a team member in Autodesk Agile&Transformation Team.
         * Worked closely with Autodesk HIG Team. 
         * Worked with security team of Autodesk Forge.
