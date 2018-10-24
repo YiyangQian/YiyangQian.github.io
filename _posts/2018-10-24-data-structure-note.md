@@ -14,9 +14,9 @@ description: Markdown summary with different options
 ---
 
 ## LinkedList and Array ##
-1. Both are linear Data Struction
-    * There is a sequence and an order to how they are constructed and traversed.
-2. Different in how memory allocation. 
+1. Both are linear Data Structure
+    * There is a sequence and an order of how they are constructed and traversed.
+2. Different in how memory allocation
     * When an array is created, it needs a certain number of contiguous memory. Array is static data structure.
     * When LinkedList is born, it does not need to be specified size. LinkedList is dynamic data structure.
 3. How LinkedList constructed
@@ -34,12 +34,12 @@ description: Markdown summary with different options
     * Time Complexity (Double Linked List)
          * Insert  O(1)
          * Delete  O(1) as pass in the object
-         * Search  O(len) len is length of chaining
+         * Search  O(len) len is length of chaining(average case), worst case is O(n)
     * Loading Factor is n / m, n is number of elements to store, and m is number of slots
 3. how to compute array indices from keys using hash functions
-    * Hash function turns key into an array index 
+    * Hash function turns key into an array index
     * Each index of array stores a pointer to a linked list(or a Red Black Tree when length over 8)
     * Dynamic array resizing
-        * Load Factor can be the trigger for resizing, when it reaches a threshold
-        * when hash collisions become inevitable (too many elements), allocate a larger array and rehashing all of our existing keys to figure out their new position. This takes O(n) time.
+        * Load Factor can be the trigger for resizing, when it reaches a threshold(default 0.75)
+        * When hash collisions become inevitable (too many elements), allocate a larger array and rehashing all of our existing keys to figure out their new position. This takes O(n) time.
 4. Java default initial capacity of HashMap is 16, and load factor is 0.75. 
