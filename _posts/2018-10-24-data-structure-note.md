@@ -43,3 +43,91 @@ description: Markdown summary with different options
         * Load Factor can be the trigger for resizing, when it reaches a threshold(default 0.75)
         * When hash collisions become inevitable (too many elements), allocate a larger array and rehashing all of our existing keys to figure out their new position. This takes O(n) time.
 4. Java default initial capacity of HashMap is 16, and load factor is 0.75. 
+5. Usage of Java HashMap
+    ```
+        public class SampleMap {
+            public static void main(String[] args) {
+                HashMap<Integer, Integer> map = new HashMap<>();
+                int[] input = {1, 1, 2, 3};
+                
+                //if we want to count the frequency of input
+                for (int i = 0; i < input.length; i++) {
+                    map.put(input[i], map.getOrDefault(input[i], 0) + 1);
+                }
+
+                //iterate over a map
+                for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
+                    System.out.println(entry.getKey());
+                    System.out.println(entry.getValue());
+                }
+
+                for (Integer value: map.values()) {
+
+                }
+
+                for (Integer key: map.keySet()) {
+
+                }
+
+                Iterator it = map.entrySet().iterator();
+                while (it.hasNext()) {
+                    Map.Entry entry = (Map.Entry) it.next();
+                    System.out.println(entry.getKey());
+                    System.out.println(entry.getValue());
+                }
+            }
+        }
+    ```
+
+## Heap ## 
+1. Java implements PriorityQueue based on a min-heap.
+2. Definition of Heap 
+    * if P is a parent node of C, then the key (the value) of P is either greater than or equal to (in a max heap) or less than or equal to (in a min heap) the key of C.
+3. Time Complexity
+    * Heapify is O(lgn)
+    * Build a heap is O(n), cause time for heapify each node is reated to its height
+4. Heap is based on an array and use index to connect parent an children
+    * Array[(i - 1) / 2] parent node
+    * Array[2 * i + 1] left child
+    * Array[2 * i + 2] right child
+3. Customize PriorityQueue based on certain data structure in Java.
+    ```
+        public class SamplePQ {
+            public static void main (String[] args) {
+                //Two ways: Java8 lambda or traditional override Comparator
+                PriorityQueue<Student> pq1 = new PriorityQueue<Student>((Student a, Student b) -> a.getId() - b.getId());
+
+                PriorityQueue<Student> pq2 = new PriorityQueue<Student>(new StudentComparator());
+            }
+        }
+
+        class StudentComparator implements Comparator<Student> {
+            public int compare (Student a, Student b) {
+                return a.getId() - b.getId();
+            }
+        }
+
+        class Student {
+            private String name;
+            private int id;
+            public String getName() {
+                return this.name;
+            }
+            public int getId() {
+                return this.id;
+            }
+        }
+    ```
+
+## Trie
+1. Trie is also called prefix trie.
+2. Advantage of a Trie
+    * Worst time complexity for looking up data is better than hash table. For a Trie, it costs O(m), m is the length of a searching string. Hash Table might need O(n) at worst case. (no collision in trie).
+3. How to implement a Trie
+    ```
+        class Trie {
+            boolean isWord;
+            //index of a node in children refers to its char
+            Trie[] children; 
+        }
+    ```
