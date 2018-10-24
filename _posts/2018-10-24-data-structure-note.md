@@ -131,3 +131,25 @@ description: Markdown summary with different options
             Trie[] children; 
         }
     ```
+
+## Binary Search Tree
+1. Definition
+    * root val is greater than value of all nodes in its left subtree
+    * root val is smaller than value of all nodes in its right subtree
+    * all subtrees are binary search tree
+2. code
+    ```
+        class BSTNode {
+            BSTNode left;
+            BSTNode right;
+            int val;
+            BSTNode (int x) {
+                this.val = x;
+            }
+        }
+    ```
+
+## Red Black Tree 
+1. Self balanced binary search tree
+2. A regular BST might become a linkedlist in the worst case
+3. TreeMap is based on Red Black Tree
