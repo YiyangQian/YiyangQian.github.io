@@ -1,7 +1,7 @@
 ---
 title: "Java Exception Notes"
 layout: post
-date: 2018-10-25
+date: 2018-10-26
 # image: /assets/images/adsk.JPG
 headerImage: false
 tag:
