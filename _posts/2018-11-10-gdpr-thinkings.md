@@ -17,7 +17,7 @@ description: Markdown summary with different options
 This Friday, 2018-11-09, during my IDS class, professor Salvo invited his friend Evan Schuman to share his understanding of GDPR. We had really interesting discussions during that, and I am writing to share things I found meaningful and interesting about GDPR. 
 
 ## What is GDPR
-GDPR refers to General Data Protection Regulation. It is a regulation in EU law on data protection and privacy for all individuals within EU and European Economic Area. The GDPR aims primarily to give control to individuals over their personal data and to simplify the relulatory environment. (Defined in Wikipedia)
+GDPR refers to General Data Protection Regulation. It is a regulation in EU law on data protection and privacy for all individuals within EU and European Economic Area. The GDPR aims primarily to give control to individuals over their personal data and to simplify the relulatory environment. (Definition on Wikipedia)
 
 ## Why Companies in United States should care
 First, all companies with any customer in EU need to follow GDPR. More than this, if a company has any partner having any customer in EU needs to follow GDPR. The second rule forces almost all tech companies need to follow GRPR, cause nowadays everyone is using services offered by several huge companies and tech companies are just closely connected. 
