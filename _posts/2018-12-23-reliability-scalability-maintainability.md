@@ -1,5 +1,5 @@
 ---
-title: "Reliability, Scalability and Maintainability - Designing Data-Intensive Applications"
+title: "Reliability, Scalability and Maintainability"
 layout: post
 date: 2018-12-23
 # image: /assets/images/adsk.JPG
@@ -14,7 +14,7 @@ description: Markdown summary with different options
 ---
 
 # Reliability
-Definition: The system should continues to work correctly even in the face of adversity(hardware or software faults, even human error).
+Definition: The system should continues to work correctly even in the face of adversity(hardware or software faults, even human error.
 
 ### Hardware Faults
 - Hard disk crash, RAM becomes faulty, power grid blackout, network cable got unplugged. 
