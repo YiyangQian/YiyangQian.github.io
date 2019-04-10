@@ -14,7 +14,6 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: false
 resume-external: false
-# resume-url: https://github.com/YiyangQian/resume-and-cover-letter/blob/master/resume/main.pdf
 
 url: https://YiyangQian.github.io/blog
 # your url: http://USERNAME.github.io
