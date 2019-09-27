@@ -22,10 +22,8 @@ description: Markdown summary with different options
 - Resource Server: eg. contacts.google.com
 - Authorization Grant: resource owner granting permission, eg. Allow Yelp to access your public profile and contacts?
 - Access Token: token needed to talk with resource server
-
 - Scope: eg. email.read, 
 - Consent
-
 - Back Channel (highly secure channel)
 - Front Channel (less secure channel)
 
@@ -167,3 +165,7 @@ Note: ID token is usually JSON Web Token (JWT).
 - Logging the user in
 - Making your accounts available in other systems
 
+## Reference
+
+1. [OAuth_and_OpenID_Connect_in_plain_English_v1.6__KCDC_.pdf](../assets/OAuth_and_OpenID_Connect_in_plain_English_v1.6__KCDC_.pdf)
+2. [OAuth 2.0 and OpenID Connect](https://www.youtube.com/watch?v=996OiexHze0)
